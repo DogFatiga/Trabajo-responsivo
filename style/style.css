@@ -241,8 +241,67 @@ header{
 
  .main-table-currenci .curenci-table--tittle{
    margin-bottom: 15px;
-   font-size: 1.8 rem;
+   font-size: 2rem;
    font-weight: bold;
-   line-height: 2.3 rem;
+   line-height: 2.6rem;
+   color: var(--naranja);
+   
+
  }
 
+ .curenci-table--conteiner{
+   width: 90%;
+   min-width: 230px;
+   max-width: 300px;
+   height: 250px;
+   margin: 0 auto;
+
+ }
+
+ .curenci-table--conteiner table{
+   width: 100%;
+   height: 100%;
+
+ }
+
+ .curenci-table--conteiner td{
+   width: 50%;
+   font-size: 1.6rem;
+   font-weight: 500;
+   line-height: 1.9rem;
+   color: var(--gray);
+   background-color: var(--white);
+ }
+.curenci-table--conteiner .table__top-left {
+   border-radius: 15px 0 0 0;
+   
+}
+.curenci-table--conteiner .table__top-right{
+   border-radius: 0 15px 0 0;
+
+}
+
+.curenci-table--conteiner .table__bottom-left{
+   border-radius: 0 0 0 15px;
+}
+
+.curenci-table--conteiner .table__bottom-right{
+   border-radius: 0 0 15px 0;
+}
+
+.curenci-table--conteiner .table__right {
+   font-size: 1.4rem;
+   font-weight: normal;
+   line-height: 1.7rem;
+   color: var(--gray-base);
+
+}
+
+.curenci-table--conteiner .muejer_logo{
+   display: inline-block;
+   width: 15px;
+   height: 20px;
+   margin-left: 10px;
+   background-image: url("/assets/icons/pngeggmujer.png");
+
+}
