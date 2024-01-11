@@ -323,3 +323,86 @@ header{
    color: var(--black);
    font-weight: 300;
 }
+.main-product--detail {
+   position: relative;
+   width: 100%;
+   min-width: 320px;
+   height: auto;
+   padding: 20px 10px;
+   background-color: var(--celeste-argentina);
+
+}
+
+.product-detail-logo{
+   position: absolute;
+   width: 40px;
+   height: 25px;
+   top: -10;
+   left: calc(50% - 20px);
+   background-image: url("/assets/Argentina/pngwing.com.png");
+}
+
+.product-delail--title{
+   width: 90%;
+   min-width: 288px;
+   height: auto;
+   margin: 0 auto;
+   margin-top: 50px;
+   text-align: center;
+}
+.product-delail--title h2{
+   margin-bottom: 20px;
+   font-size: 2.4rem;
+   font-weight: bold;
+   line-height: 2.6rem;
+   color: var(--white);
+}
+
+.product-delail--title p {
+   margin-bottom: 20px;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: wheat;
+}
+
+.product-details--card{
+   width: 100%;
+   min-width: 288px;
+   max-width: 400px;
+   height: 150px;
+   margin: 15px auto;
+   padding: 15px;
+   background-color: var(--secondary);
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgb(0, 0, 0.16);
+
+
+}
+
+.product-details--card .clock{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   margin-bottom: 10px;
+   background-image: url("/assets/icons/clock.svg");
+   background-size: cover;
+   background-position:center ;
+   background-repeat:no-repeat ;
+}
+
+.product--card-title{
+   margin-bottom: 15px;
+   font-size: 1.8rem;
+   font-weight: bold;
+   line-height: 1.8rem;
+   color: var(--white);
+
+}
+
+.product--card-body{
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   
+}
