@@ -297,12 +297,21 @@ header{
 
 }
 
-.curenci-table--conteiner .muejer_logo{
+.curenci-table--conteiner .muejer_logo img{
    display: inline-block;
-   width: 15px;
+   width: 20px;
    height: 20px;
-   margin-left: 10px;
-   background-image: url("/assets/icons/pngeggmujer.png");
+   margin-left: 0;
+   
+
+}
+
+.curenci-table--conteiner .hombre_logo img{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   margin-left: 0;
+   
 
 }
 
@@ -333,13 +342,13 @@ header{
 
 }
 
-.product-detail-logo{
+.product-detail-logo img{
    position: absolute;
    width: 40px;
-   height: 25px;
-   top: -10;
+   height: 40px;
+   top: -15;
    left: calc(50% - 20px);
-   background-image: url("/assets/Argentina/pngwing.com.png");
+   
 }
 
 .product-delail--title{
@@ -370,7 +379,7 @@ header{
    width: 100%;
    min-width: 288px;
    max-width: 400px;
-   height: 150px;
+   height: 180px;
    margin: 15px auto;
    padding: 15px;
    background-color: var(--secondary);
@@ -380,16 +389,43 @@ header{
 
 }
 
-.product-details--card .clock{
+.product-details--card .clock img{
    display: inline-block;
    width: 20px;
    height: 20px;
-   margin-bottom: 10px;
-   background-image: url("/assets/icons/clock.svg");
+   margin-bottom: 10px;   
    background-size: cover;
    background-position:center ;
    background-repeat:no-repeat ;
 }
+.product-details--card .pasaporte img{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   margin-bottom: 10px;   
+   background-size: cover;
+   background-position:center ;
+   background-repeat:no-repeat ;
+}
+.product-details--card .genero img{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   margin-bottom: 10px;   
+   background-size: cover;
+   background-position:center ;
+   background-repeat:no-repeat ;
+}
+.product-details--card .legal img{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   margin-bottom: 10px;   
+   background-size: cover;
+   background-position:center ;
+   background-repeat:no-repeat ;
+}
+
 
 .product--card-title{
    margin-bottom: 15px;
@@ -406,3 +442,187 @@ header{
    line-height: 1.8rem;
    
 }
+
+.Bitcon-img-conteiner{
+   width: 100%;
+   min-width: 320px;
+   height: 50vh;
+   background-image: url("/assets/Argentina/EKjKFPkWsAAljep.jpeg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+.Bitcon-img-conteiner h2 {
+   padding-top: 60px;
+   font-size: 2.4rem;
+   text-align: center;
+   font-weight: bold;
+   line-height: 2.6rem;
+   color: var(--white);
+}
+
+.main-plans-conteiner{
+   width: 100%;
+   min-width: 320px;
+   padding-bottom: 70px;
+   text-align: center;
+}
+.plans-title{
+   width: 90%;
+   min-width: 288px;
+   height: auto;
+   margin: 0 auto;
+   
+
+}
+
+.plans-title h2{
+   margin-top: 50px;
+}
+
+.main-plans-conteiner {
+   width: 100%;   
+   min-width: 320px;
+   padding-bottom: 70px;
+   text-align: center;
+
+
+}
+
+.plans-title {
+   width: 90%;
+   min-width: 288px;
+   height: auto;
+   margin: 0 auto;
+   margin-bottom: 50px;
+
+}
+
+.plans-title h2{
+   padding-top: 50px;
+   font-size: 2.4rem;
+   font-weight: bold;
+   line-height: 2.6rem;
+   color: var(--black);
+
+}
+
+.plans-title p{
+   padding-top: 30px;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: #757575;
+
+}
+
+.plans-conteiner-card{
+   position: relative;
+   width: 70%;
+   min-width: 230px;
+   max-width: 300px;
+   height: 250px;
+   margin: 50px auto 0;
+   padding: 0 15px;
+   background-color: var(--white);
+   border-radius: 15px;
+   box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
+
+}
+
+.recomendado {
+   position:absolute;
+   width: 120px;
+   height: 31px;
+   padding: 6px;
+   top: -15px;
+   left: calc(50% - 60px);
+   font-size: 1.2rem;
+   background-color: var(--celeste-argentina);
+   border-radius: 8px;
+   color: var(--white);
+}
+
+.pan-class-tittle{
+   padding-top: 30px;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: black;
+}
+
+.plan-clss-price{
+   padding: 5px 0;
+   font-size: 5.3rem;
+   font-weight: bold;
+   line-height: 5.3rem;
+   color: black;
+}
+
+.plan-clss-price span{
+   font-size: 1.2rem;
+   font-weight: 300;
+
+}
+
+.plan-clas-saving {
+   font-size: 1.2rem;
+   color: #757575;
+
+}
+
+.plan-card-ca{
+   width: 150px;
+   height: 48px;
+   margin-top: 20px;
+   background-color: white;
+   border: 2px solid var(--naranja);
+   border-radius: 4px;
+   font-family: var(--dm);
+   font-size: 1.4rem;
+   font-weight: bold;
+   line-height: 1.8rem;
+   color: var(--black);
+}
+
+.plan-card-ca img {
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   vertical-align: text-bottom;
+}
+   footer{
+      display: flex;
+      width: 100%;
+      height: 150px;
+      background-color: var(--celeste-argentina);
+
+   }
+
+   footer section{
+      display: flex;
+      width: 50%;
+      justify-content: center;
+      align-items: center;
+   }
+
+   footer .left ul {
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 1.8rem;
+      list-style: none;
+
+   }
+
+   .left li{
+      margin: 10 0;
+
+   }
+
+   .left a{
+      text-decoration: none;
+      color: var(--white);
+      
+   }
